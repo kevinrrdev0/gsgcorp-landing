@@ -45,8 +45,8 @@
         <i class="bi bi-phone-fill phone-icon"></i> 978 010 495
       </div>
       <div class="social-links d-none d-md-block">        
-        <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/gsgcorp.sac" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -255,7 +255,7 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" style="display:none">
       <div class="container">
 
         <div class="section-title">
@@ -388,14 +388,12 @@
             <div class="box featured">
               <h3>e-Commerce</h3>              
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Más envios, menor costo</li>
+                <li>Recojo y envios programados</li>
+                <li>Almacen de productos, sin costo</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Cotizar</a>
+                <a href="https://wa.link/87n74j" target="_blank" class="btn-buy">Cotizar</a>
               </div>
             </div>
           </div>
@@ -404,14 +402,12 @@
             <div class="box featured">
               <h3>Express</h3>              
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Envíos y recojos</li>
+                <li>Pedidos personales</li>
+                <li>Motorizado exclusivo</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Cotizar</a>
+                <a href="https://wa.link/87n74j" target="_blank" class="btn-buy">Cotizar</a>
               </div>
             </div>
           </div>
@@ -420,14 +416,12 @@
             <div class="box featured">
               <h3>Empresarial</h3>              
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>Envíos y recojos</li>
+                <li>Gestión de documentos u productos</li>
+                <li>Flota de motorizados exclusivo</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Cotizar</a>
+                <a href="https://wa.link/87n74j" target="_blank" class="btn-buy">Cotizar</a>
               </div>
             </div>
           </div>
@@ -531,7 +525,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" action="enviar.php"  role="form" id="formulario-contacto" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -546,12 +540,8 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Enviando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+           
+              <div class="text-center"><button id="btnSend" type="submit">Enviar mensaje</button></div>
             </form>
           </div>
 
@@ -560,6 +550,33 @@
       </div>
     </section><!-- End Contact Section -->
 
+    <!-- Messenger plugin del chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your plugin del chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108555854926376");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -578,8 +595,8 @@
                 <strong>Email:</strong> ventas.info@gsgcorppe.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/gsgcorp.sac" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -598,19 +615,17 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">E-Commerce</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Express</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Empresarial</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Asesoramiento </h4>
             <p>Déjanos tu número para que uno de nuestros especialistas pueda contactarte.</p>
-            <form action="" method="post">
-              <input type="email" name="name" id="cell_client" maxlength="13"><input type="submit" value="Llámame">
+            <form action="" method="post" style="display:none">
+              <input type="tel" name="name" id="cell_client" maxlength="13"><a href="https://wa.link/87n74j" class="utton" target="_blank">Llámame</a>
             </form>
 
           </div>
@@ -623,7 +638,7 @@
       <div class="copyright">
         &copy; Copyright <strong><span>GSG Corp Pe</span></strong>. Reservados todos los derechos
       </div>
-      <div class="credits">
+      <div class="credits" style="display:none">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -641,11 +656,14 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
+ <!-- jQuery -->
+ <script src="jquery.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="enviar.js"></script>
+  <script src="bootbox.min.js"></script>
 
 </body>
 
