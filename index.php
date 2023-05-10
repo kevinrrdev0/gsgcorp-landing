@@ -42,9 +42,9 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">ventas.info@gsgcorppe.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> 978 010 495
+        <i class="bi bi-phone-fill phone-icon"></i> 965 273 801
       </div>
-      <div class="social-links d-none d-md-block">        
+      <div class="social-links d-none d-md-block">
         <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/gsgcorp.sac" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
       </div>
@@ -123,7 +123,7 @@
             </ul>
             <p>
               Nuestro servicio brinda seguridad y puntualidad en su entrega, diferenciadonos por ofrecer un servicio de alta calidad
-               para sastifacer sus necesidades, porque la sastifaccion de nuestros clientes es nuestro principal objetivo.
+              para sastifacer sus necesidades, porque la sastifaccion de nuestros clientes es nuestro principal objetivo.
             </p>
           </div>
         </div>
@@ -207,8 +207,8 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Services</span>
-          <h2>Services</h2>
+          <span>Servicios</span>
+          <h2>Servicios</h2>
           <p></p>
         </div>
 
@@ -248,7 +248,7 @@
         <div class="text-center">
           <h3>Conoce Nuestra Oficina</h3>
           <p> Mire este video para que pueda conocer un poco más sobre nosotros y los servicios que brindamos.</p>
-          <a class="cta-btn" href="#">Ver video</a>
+          <a class="cta-btn" href="https://youtu.be/jvSuSGI-IJ8" target="_blank">Ver video</a>
         </div>
 
       </div>
@@ -283,7 +283,7 @@
               <h4>App 1</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -293,7 +293,7 @@
               <h4>Web 3</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -303,7 +303,7 @@
               <h4>App 2</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -313,7 +313,7 @@
               <h4>Card 2</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -323,7 +323,7 @@
               <h4>Web 2</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -333,7 +333,7 @@
               <h4>App 3</h4>
               <p>App</p>
               <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -343,7 +343,7 @@
               <h4>Card 1</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -353,7 +353,7 @@
               <h4>Card 3</h4>
               <p>Card</p>
               <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -363,7 +363,7 @@
               <h4>Web 3</h4>
               <p>Web</p>
               <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              
+
             </div>
           </div>
 
@@ -386,7 +386,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
             <div class="box featured">
-              <h3>e-Commerce</h3>              
+              <h3>e-Commerce</h3>
               <ul>
                 <li>Más envios, menor costo</li>
                 <li>Recojo y envios programados</li>
@@ -400,7 +400,7 @@
 
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
             <div class="box featured">
-              <h3>Express</h3>              
+              <h3>Express</h3>
               <ul>
                 <li>Envíos y recojos</li>
                 <li>Pedidos personales</li>
@@ -414,7 +414,7 @@
 
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
             <div class="box featured">
-              <h3>Empresarial</h3>              
+              <h3>Empresarial</h3>
               <ul>
                 <li>Envíos y recojos</li>
                 <li>Gestión de documentos u productos</li>
@@ -496,7 +496,7 @@
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Nuestra dirección</h3>
-              <p>Los Olivos, Angelica Gamarra Crd 7, Urb. Taurija Mz G LT 2</p>
+              <p>Los Olivos, Angelica Gamarra Crd 7</p>
             </div>
           </div>
 
@@ -512,7 +512,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Llámanos</h3>
-              <p>+51 978 010 495</p>
+              <p>+51 965 273 801</p>
             </div>
           </div>
 
@@ -521,11 +521,11 @@
         <div class="row" data-aos="fade-up">
 
           <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=parque%20hijos%20de%20taurija&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6">
-            <form method="post" action="enviar.php"  role="form" id="formulario-contacto" class="php-email-form">
+            <form method="post" action="enviar.php" role="form" id="formulario-contacto" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
@@ -540,7 +540,7 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
-           
+
               <div class="text-center"><button id="btnSend" type="submit">Enviar mensaje</button></div>
             </form>
           </div>
@@ -564,15 +564,16 @@
 
       window.fbAsyncInit = function() {
         FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
+          xfbml: true,
+          version: 'v12.0'
         });
       };
 
       (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
@@ -584,18 +585,18 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          
+
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>GSG</h3>
               <p>
                 Los Olivos, Av. Angélica gamarra crd 7<br>
-                Urb. Taurija Mz G LT 2<br><br>
-                <strong>Phone:</strong> 978 010 495<br>
+                <br><br>
+                <strong>Phone:</strong> 965 273 801<br>
                 <strong>Email:</strong> ventas.info@gsgcorppe.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://www.facebook.com/GSG.Corp.pe" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.facebook.com/GSGpe" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/gsgcorp.sac" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
@@ -624,10 +625,8 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Asesoramiento </h4>
             <p>Déjanos tu número para que uno de nuestros especialistas pueda contactarte.</p>
-            <form action="" method="post" style="display:none">
-              <input type="tel" name="name" id="cell_client" maxlength="13"><a href="https://wa.link/87n74j" class="utton" target="_blank">Llámame</a>
-            </form>
-
+            <p>Si deseas contactar con un asesor logistico</p>
+            <a href="https://wa.link/a5kefy" class="button" target="_blank">Click aquí</a>
           </div>
 
         </div>
@@ -656,10 +655,10 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  
+
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
- <!-- jQuery -->
- <script src="jquery.min.js"></script>
+  <!-- jQuery -->
+  <script src="jquery.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="enviar.js"></script>
